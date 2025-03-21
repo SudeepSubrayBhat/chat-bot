@@ -37,9 +37,9 @@ whatsapp-chatbot
    ```
 
 2. Install the required dependencies:
+   ``` pip install -r requirements.txt
    ```
-   pip install -r requirements.txt
-   ```
+  
 
 3. Configure the application:
    - Update the `config.py` file with your API keys, webhook URLs, and database connection strings.
