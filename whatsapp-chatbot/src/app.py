@@ -5,7 +5,6 @@ from billing import Billing
 from utils import send_message, log_event
 
 app = Flask(__name__)
-run_with_ngrok(app)
 
 inventory = Inventory()
 billing = Billing()
